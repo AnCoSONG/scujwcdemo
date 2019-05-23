@@ -89,7 +89,7 @@
           <el-carousel-item v-for="(value,key,index) in previewList" :key="key" :label="key">
             <div class="itemBox" :data-index="index" @click.self="onClickItem($event)">
               <div class="title">{{key}}</div>
-              <div class="infos" style="width:100%;">
+              <div class="infos" style="width:100%;margin-bottom:10px;">
                 <div class="info" v-for="(v,k,idx) in value" :key="idx">
                   <div class="key">{{k}}</div>
                   <div class="value">{{v}}</div>
