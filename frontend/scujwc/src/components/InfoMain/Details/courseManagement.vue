@@ -456,7 +456,7 @@ export default {
                 course_name: "C语言与头秃疗法",
                 course_teachers: "Nathanial/Myra/Miller",
                 course_district: "江安校区",
-                course_time: "星期二 8:15-9:55 / 星期三 15:30-16:25",
+                course_time: "2-16周 星期二 8:15-9:55 / 星期三 15:30-16:25",
                 course_place: "一教A303 / 一教B307 ",
                 credit: 4, //学分
                 taken: false

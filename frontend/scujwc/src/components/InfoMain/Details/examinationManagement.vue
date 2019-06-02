@@ -50,7 +50,7 @@
           <el-table-column prop="course_teachers" label="教师" width="100" show-overflow-tooltip></el-table-column>
           <el-table-column prop="date" label="考试日期" width="125" show-overflow-tooltip></el-table-column>
           <el-table-column prop="startTime" label="考试开始时间" width="75" show-overflow-tooltip></el-table-column>
-          <el-table-column prop="startTime" label="考试结束时间" width="75" show-overflow-tooltip></el-table-column>
+          <el-table-column prop="endTime" label="考试结束时间" width="75" show-overflow-tooltip></el-table-column>
           <el-table-column prop="duration" label="考试时长" width="75" show-overflow-tooltip></el-table-column>
           <el-table-column prop="place" label="考试地点" show-overflow-tooltip></el-table-column>
         </el-table>
@@ -107,7 +107,7 @@ export default {
           startTime: moment("2019-06-28 14:00").format("HH:mm"),
           //最好,传一个date对象进来，或者传字符串，但是要按照 yyyy-MM-dd-hh-mm 的形式
           duration: 120,
-          endTime: moment("2019-06-28 15:00").format("HH:mm"),
+          endTime: moment("2019-06-28 16:00").format("HH:mm"),
           place: "一教C203"
         }
       ];

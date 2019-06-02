@@ -19,8 +19,8 @@
 
       <div class="info-detail">
         <div class="avatar" :class="gender"></div>
-        <el-divider></el-divider>
-        <el-row :gutter="20" class="rowItem">
+        <el-divider class="divider"></el-divider>
+        <el-row :gutter="20" class="rowItem" style="margin-top:40px;">
           <el-col :span="8">
             <div class="info-item">{{name}}</div>
             <!-- <el-input
@@ -397,7 +397,7 @@ export default {
   background-size: 100%;
   height: 128px;
   width: 128px;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .avatar.boy {
